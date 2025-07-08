@@ -74,6 +74,48 @@
     color: #003d73;
 }
 
+@media (max-width: 768px) {
+  .top-intra {
+    flex-direction: column;
+    margin-top: 20px;
+  }
+
+  .top-intra-left,
+  .top-intra-right {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .top-images {
+    justify-content: center;
+  }
+
+  .img-2 {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .top-intra-right p {
+    text-align: center;
+    font-size: 1rem;
+  }
+
+  .capaian-row {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 20px;
+  }
+
+  .capaian-item {
+    text-align: center;
+    padding: 10px;
+  }
+
+}
+
+
 /*capaian*/
 .capaian-intrakurikuler {
   padding: 20px 0px;

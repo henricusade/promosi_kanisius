@@ -159,5 +159,17 @@
   .bk-statement h2 {
     font-size: 2rem;
   }
+
+  .intro-bk-content {
+  padding: 0px 0px;
+  }
+
+  .intro-bk {
+    padding: 60px 0px;
+  }
+
+  .bk-impact h2 {
+  font-size: 2rem;
+}
 }
 

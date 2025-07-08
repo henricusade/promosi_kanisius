@@ -154,3 +154,62 @@ background-image: linear-gradient(rgba(65, 33, 10, 0.5), rgba(36, 23, 14, 0.5)),
 .benefits li {
   margin-bottom: 10px;
 }
+
+@media (max-width: 768px) {
+  
+  .pramuka-section,
+  .basket-section {
+    flex-direction: column;
+  }
+
+  
+  .basket-section {
+    flex-direction: column-reverse; 
+  }
+
+  .eks-kontain,
+  .eks-info {
+    width: 100%;
+    padding: 20px;
+  }
+
+
+  .tagline {
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+
+  .teks {
+    font-size: 16px;
+    text-align: center;
+    color: white;
+    padding: 10px;
+  }
+
+  .schedule {
+    padding: 20px;
+    margin-top: 20px;
+  }
+
+  .border-left,
+  .border-right {
+    border: none;
+    border-top: 4px solid white;
+  }
+
+  .benefits {
+    padding: 20px;
+    margin-top: 20px;
+    background-color: rgb(236, 236, 236);
+  }
+
+  .benefits h3 {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .benefits li {
+    font-size: 15px;
+    line-height: 1.5;
+  }
+}

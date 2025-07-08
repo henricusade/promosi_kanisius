@@ -53,6 +53,35 @@ header {
   color: #0066ff;
 }
 
+.hamburger {
+  display: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+/* Responsive untuk HP */
+@media (max-width: 768px) {
+  .nav-links {
+    position: absolute;
+    top: 70px;
+    right: 0;
+    background-color: white;
+    flex-direction: column;
+    width: 200px;
+    display: none; 
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+  }
+
+  .nav-links.active {
+    display: flex; 
+  }
+
+  .hamburger {
+    display: block;
+  }
+}
+
 /* Hero Section */
 .hero {
   display: flex;
@@ -104,6 +133,22 @@ header {
   max-width: 90%;
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+    padding: 40px 20px;
+  }
+
+  .hero-image {
+    display: none;
+  }
+
+  .hero-text {
+    width: 100%;
+    text-align: left;
+  }
 }
 
 /* Highlight Section */
@@ -174,6 +219,6 @@ footer {
   height: 2px;
   width: 100%;
   background: linear-gradient(to right, transparent, #102a43, transparent);
-  margin-top: 20px; /* jarak dari section ke garis */
+  margin-top: 20px; 
 }
 

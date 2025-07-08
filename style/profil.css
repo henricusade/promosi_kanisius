@@ -67,6 +67,63 @@
   font-size: 28px;
 }
 
+@media (max-width: 768px) {
+  .top-hero {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    padding: 0;
+    background-image: url('../images/hero-profil.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
+
+  
+  .top-hero-box {
+    position: relative;
+    margin-top: 180px;
+    margin-bottom: 20px;
+    background-color: rgba(14, 27, 82, 0.85);
+    color: white;
+    padding: 20px;
+    width: 90%;
+    max-width: 360px;
+    align-self: center;
+    border-radius: 8px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    text-align: center;
+  }
+
+  
+  .top-hero-img {
+    display: none;
+  }
+
+  
+  .top-text {
+    position: static;
+    background-color: #0E1A52;
+    color: white;
+    padding: 30px 20px;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+  }
+
+  .top-text h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+  .top-text p {
+    font-size: 1rem;
+    text-align: center;
+  }
+}
+
+
 
 /* Sejarah */
 .sejarah-modern {
@@ -143,6 +200,10 @@
     flex-direction: column-reverse;
     text-align: center;
   }
+
+  .sejarah-images {
+    display: none;
+  }
 }
 
 /*profil*/
@@ -208,6 +269,37 @@
   margin-bottom: 20px;
 }
 
+@media (max-width: 768px) {
+  .profile-section {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .profile-section .kiri,
+  .profile-section .kanan {
+    flex: none;
+    width: 100%;
+    padding: 20px;
+  }
+
+  .profile-section .kiri {
+    height: auto;
+  }
+
+  .profile-content h2 {
+    font-size: 1.2rem;
+  }
+
+  .profile-content p {
+    font-size: 0.95rem;
+  }
+
+  .profile-list li {
+    font-size: 0.95rem;
+  }
+}
+
+
 
 
 /* Struktur Organisasi */
@@ -265,17 +357,54 @@
   width: 100%;
 }
 
+@media (max-width: 768px) {
+  .struktur-wrapper {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .struktur-kiri,
+  .struktur-kanan {
+    flex: none;
+    width: 100%;
+    padding: 20px;
+  }
+
+  .struktur-kiri h2,
+  .struktur-kiri p {
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .struktur-kanan {
+    padding: 100px 20px 100px 20px;
+    background-color: #0E1A52;
+  }
+
+  .struktur-img-wrapper {
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .struktur-img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+}
+
+
 /* Tenaga Pendidik */
 .guru-section {
   padding: 100px 40px;
    background: radial-gradient(circle farthest-side at center,
-    #e0f2ff 0%,       /* biru tua di tengah */
-    #e0f2ff 40%,      /* pertahankan biru sampai 40% */
-    #e8f3fa 60%,      /* transisi ke biru muda */
-    #f5fafd 80%,      /* mendekati putih */
-    #ffffff 100%      /* putih penuh di tepi */
+    #e0f2ff 0%,       
+    #e0f2ff 40%,      
+    #e8f3fa 60%,      
+    #f5fafd 80%,      
+    #ffffff 100%      
   );
-  margin-top: -20px;    /* haluskan sambungan dengan section atas */
+  margin-top: -20px;    
   margin-bottom: -20px;
   text-align: center;
 }

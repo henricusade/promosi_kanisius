@@ -170,24 +170,68 @@
   margin-left: 3rem;
 }
 
+@media (max-width: 768px) {
+  .top-program-container {
+    flex-direction: column;
+    max-width: 100%;
+    min-height: auto;
+  }
 
+  .top-program-left {
+    display: none;
+  }
 
-/*floating image*/
-.section-wrapper {
-  position: relative; /* Penting agar gambar bisa diatur absolut terhadap wrapper ini */
+  .top-program-right {
+    flex: none;
+    width: 100%;
+    padding: 40px 20px;
+    background-image: url('../images/samar.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #0E1A52;
+    position: relative;
+  }
+
+  .top-program-right::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to bottom, 
+  rgba(255, 255, 255, 0.7) 20%, 
+  rgba(14, 26, 82, 1) 100%);
+    z-index: 0;
+  }
+
+  .top-program-right h1,
+  .top-program-right h2,
+  .top-program-right p {
+    margin-left: 0;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+  }
+
+  .top-program-right h1 {
+    font-size: 1.8rem;
+  }
+
+  .top-program-right h2 {
+    font-size: 1.1rem;
+  }
+
+  .top-program-right p {
+    padding-top: 40px;
+    font-size: 1rem;
+    color: white
+  }
+
+  .promosi-section {
+  background-color: rgba(14, 26, 82);
 }
 
-.floating-image {
-  position: absolute;
-  top: 50%; /* Atur agar vertikalnya pas di antara dua section */
-  right: 0;
-  transform: translateY(-50%); /* Biar gambar tetap di tengah */
-  z-index: 2;
-  pointer-events: none; /* Opsional, agar tidak mengganggu klik */
+.promosi-card {
+  box-shadow: 0 8px 24px rgba(255, 255, 255, 0.25);
+}
 }
 
-.floating-image img {
-  max-height: 100px; /* atau sesuai ukuran yang Anda inginkan */
-  width: auto;
-  object-fit: contain;
-}
