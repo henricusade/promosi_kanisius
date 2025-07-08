@@ -1,0 +1,179 @@
+/* ----------INDEX_PAGE---------- */
+/* Font dan Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: white;
+  color: #333;
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Header / Navbar */
+header {
+  background-color: #ffffff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+  padding: 15px 40px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  height: 50px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+.nav-links li a {
+  color: #004aad;
+  font-weight: 600;
+}
+
+.nav-links li a:hover {
+  color: #0066ff;
+}
+
+/* Hero Section */
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px 40px;
+  flex-wrap: wrap;
+  background-image: linear-gradient(rgba(5, 57, 105, 0.616), rgb(14, 24, 36)), url('../images/hero.jpg');
+  background-size: cover;        
+  background-position: center;   
+  background-repeat: no-repeat;
+}
+
+.hero-text {
+  flex: 1;
+  padding: 20px;
+}
+
+.hero-text h1 {
+  font-size: 2.5rem;
+  color: #ffffff;
+  margin-bottom: 40px;
+}
+
+.hero-text h1 span {
+  color: #ffffff;
+}
+
+
+.btn-primary {
+  background-color: #0066ff;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 6px;
+  font-weight: 600;
+  transition: background 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #004aad;
+}
+
+.hero-image {
+  flex: 1;
+  text-align: center;
+}
+
+.hero-image img {
+  max-width: 90%;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Highlight Section */
+.highlight {
+  padding: 60px 40px;
+  background-color: rgb(14, 24, 36);
+  text-align: center;
+}
+
+.highlight h2 {
+  font-size: 2rem;
+  margin-bottom: 40px;
+  color: white;
+}
+
+.cards {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: rgb(15, 32, 53);
+  padding: 25px;
+  border-radius: 12px;
+  width: 300px;
+  box-shadow: 0 0px 4px rgba(255, 255, 255, 0.61);
+  transition: transform 0.2s ease;
+  color: #ffffff;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card h3 {
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+
+/* Footer */
+footer {
+  background-color: #0E1A52;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+.page-header {
+  background-color: #ffffff;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.page-header h1 {
+  font-size: 2.5rem;
+  color: #004aad;
+}
+
+.page-header p {
+  font-size: 1.1rem;
+  color: #555;
+  margin-top: 10px;
+}
+
+.section-underline {
+  height: 2px;
+  width: 100%;
+  background: linear-gradient(to right, transparent, #102a43, transparent);
+  margin-top: 20px; /* jarak dari section ke garis */
+}
+

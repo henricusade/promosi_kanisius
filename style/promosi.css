@@ -1,0 +1,193 @@
+/* ----------RPOMOSI_PAGE---------- */
+/* Hero section */
+.promosi-hero {
+  background-image: url('images/hero-promosi.png'); 
+  background-size: cover;
+  background-position: center;
+  height: 40vh;        
+  min-height: 250px;   
+  max-height: 600px; 
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+}
+
+.promosi-hero::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.hero-overlay {
+  position: relative;
+  z-index: 1;
+}
+
+.promosi-hero h1 {
+  font-size: 2.8rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.promosi-hero p {
+  font-size: 1.1rem;
+  font-weight: 300;
+}
+
+/* Grid section */
+.promosi-section {
+  padding: 60px 40px;
+  background-color: #f9fafc;
+  position: relative;
+  z-index: 1;
+}
+
+.promosi-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 32px;
+}
+
+/* Card */
+.promosi-card {
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
+  transition: transform 0.3s ease;
+}
+
+.promosi-card:hover {
+  transform: translateY(-6px);
+}
+
+.promosi-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.card-content {
+  padding: 20px;
+}
+
+.card-content h3 {
+  margin-top: 0;
+  font-size: 1.2rem;
+  color: #004aad;
+}
+
+.card-content p {
+  font-size: 0.95rem;
+  color: #444;
+  margin-top: 8px;
+}
+
+.promosi-section-btn {
+  background-color: #1D2A7A;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  margin-top: 10px;
+  font-size: 1rem;
+  border-radius: 9999px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.promosi-section-btn:hover {
+  background-color: #2b3c9d;
+}
+
+
+
+/*top program*/
+.top-program {
+  background-color: #0E1A52;
+  color: white;
+  padding: 0 0;
+  position: relative;
+  z-index: 1;
+}
+
+.top-program-container {
+  max-width: 80%;
+  margin: 0 0;
+  display: flex;
+  align-items: stretch;
+  min-height: 500px;
+}
+
+.top-program-left {
+  flex: 2;
+  position: relative;
+  overflow: hidden;
+}
+
+.background-image-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url('../images/samar.jpg'); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.top-program-right {
+  flex: 3;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+.top-program-right h2 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.top-program-right h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 1.3;
+  margin-bottom: 1rem;
+  margin-left: 10rem;
+}
+
+.top-program-right p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+  margin-left: 3rem;
+}
+
+
+
+/*floating image*/
+.section-wrapper {
+  position: relative; /* Penting agar gambar bisa diatur absolut terhadap wrapper ini */
+}
+
+.floating-image {
+  position: absolute;
+  top: 50%; /* Atur agar vertikalnya pas di antara dua section */
+  right: 0;
+  transform: translateY(-50%); /* Biar gambar tetap di tengah */
+  z-index: 2;
+  pointer-events: none; /* Opsional, agar tidak mengganggu klik */
+}
+
+.floating-image img {
+  max-height: 100px; /* atau sesuai ukuran yang Anda inginkan */
+  width: auto;
+  object-fit: contain;
+}

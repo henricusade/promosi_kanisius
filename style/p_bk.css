@@ -1,0 +1,163 @@
+/*hero*/
+.hero-bk {
+  position: relative;
+  background-image: url('../images/hero-bk.jpg'); 
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  color: white;
+  text-align:left;
+  padding: 40px;
+  overflow: hidden;
+}
+
+.hero-bk::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+}
+
+.hero-bk-content {
+  position: relative;
+  z-index: 2;
+  max-width: 660px;
+  padding: 30px 40px;
+  background-color: #0e1b52d8;
+  border-radius: 16px;
+
+}
+
+.hero-bk-content h2 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  color: #f0f0f0;
+  font-weight: 600;
+  
+}
+
+.hero-bk-content p {
+  font-size: 1.2rem;
+  color: #f0f0f0;
+  font-weight: 300;
+  
+}
+
+/*intro*/
+.intro-bk {
+  background-color: #0e1b52;
+  padding: 60px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.intro-bk-content {
+  padding: 0px 40px;
+}
+
+
+.intro-bk p {
+  font-size: 1.1rem;
+  color: white;
+  line-height: 1.7;
+  padding: 40px 60px;
+}
+
+.intro-bk strong {
+    color: white;
+}
+
+/*impact*/
+.bk-impact {
+ padding: 40px 60px;
+  background-color: white;
+  color: #333;
+  text-align: center;
+}
+
+.bk-impact h2 {
+  font-size: 3rem;
+  color: #2c3e50;
+  margin: 100px 0px ;
+  font-weight: 600;
+}
+
+.impact-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.impact-item {
+  flex: 1;
+  padding: 0px 20px;
+}
+
+.impact-item img {
+  max-height: 600px;
+  max-width: 100%;
+  border-radius: 16px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  object-fit: cover;       
+  object-position: top;    
+  transition: 0.3s ease
+}
+
+.impact-item h3 {
+  font-size: 1.3rem;
+  color: #0e1b52;
+  margin-top: 40px ;
+  margin-bottom: 20px;
+}
+
+.impact-item p {
+  font-size: 1rem;
+  color: black;
+  line-height: 1.6;
+  margin-bottom: 60px;
+}
+
+/*statment*/
+.bk-statement {
+  background: #0e1b52;
+  padding: 150px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.bk-statement h2 {
+  font-size: 4rem;
+  color: white;
+  font-weight: 700;
+  max-width: 1000px;
+  line-height: 1.3;
+  letter-spacing: 1px;
+  position: relative;
+  display: inline-block;
+}
+
+.bk-statement h2::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 4px;
+  background-color: white;
+  margin: 20px auto 0;
+  border-radius: 2px;
+}
+
+@media (max-width: 768px) {
+  .bk-statement h2 {
+    font-size: 2rem;
+  }
+}
+
