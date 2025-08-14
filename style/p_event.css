@@ -1,0 +1,170 @@
+.hero-event {
+  background-color: #0E1A52;
+  padding: 30px 20px;
+  align-items: center;
+  text-align: center;
+}
+
+.hero-event h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.hero-event p {
+  font-size: 1.1rem;
+  color: white;
+  max-width: 700px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+.line {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid white;
+}
+
+.event-image {
+    width: 100%;
+    height: 40vh; 
+    max-width: 80%;
+    overflow: hidden;
+    margin: 60px auto;
+    border-radius: 20px; 
+  }
+
+  .event-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    object-position: center; 
+    display: block;
+  }
+
+.event-section {
+  background-color: white;
+  padding: 60px 20px;
+}
+
+.event-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.event-title {
+  font-size: 2rem;
+  color: #1e3a8a;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.event-description {
+  font-size: 1rem;
+  color: #374151;
+  max-width: 700px;
+  margin: 0 auto 2rem;
+}
+
+.event-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.gallery-item {
+  position: relative;
+  overflow: hidden;
+  border-radius: 1rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.gallery-item:hover img {
+  transform: scale(1.03);
+}
+
+.overlay-text {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 10px 15px;
+  background: linear-gradient(to top, #0E1A52, transparent);
+  color: white;
+  font-weight: 600;
+  font-size: 1rem;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
+
+/* Detail Section */
+.detail-section {
+  display: none;
+  background-color: #0E1A52;
+  padding: 40px 20px;
+  
+}
+
+.detail-section.active {
+  display: block;
+}
+
+.detail-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.detail-container h3 {
+  font-size: 1.5rem;
+  color: white;
+  margin-bottom: 0.5rem;
+}
+
+.detail-container p {
+  font-size: 1rem;
+  color: white;
+  margin-bottom: 1.5rem;
+}
+
+.detail-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.detail-gallery img {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 0.75rem;
+  object-fit: cover;
+  height: 180px;
+  box-shadow: 0 0px 8px rgba(255, 255, 255, 0.3);
+}
+
+/* Tombol Tutup */
+.close-btn {
+  position: absolute;
+  top: 15px;
+  right: 25px;
+  background: transparent;
+  border: none;
+  font-size: 2rem;
+  color: white;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.close-btn:hover {
+  color: #ef4444;
+}

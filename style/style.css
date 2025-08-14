@@ -89,7 +89,7 @@ header {
   justify-content: space-between;
   padding: 60px 40px;
   flex-wrap: wrap;
-  background-image: linear-gradient(rgba(5, 57, 105, 0.616), rgb(14, 24, 36)), url('../images/hero.jpg');
+  background-image: linear-gradient(rgba(5, 57, 105, 0.616), rgb(14, 24, 36)), url('../images/hero.png');
   background-size: cover;        
   background-position: center;   
   background-repeat: no-repeat;

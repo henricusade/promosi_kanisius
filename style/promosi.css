@@ -123,7 +123,7 @@
 }
 
 .top-program-left {
-  flex: 2;
+  flex: 6;
   position: relative;
   overflow: hidden;
 }

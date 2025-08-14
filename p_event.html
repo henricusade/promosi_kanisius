@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Promosi - SMP Kanisius Wonosari</title>
+    <link rel="stylesheet" href="style/style.css" />
+    <link rel="stylesheet" href="style/p_event.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header>
+      <div class="nav-container">
+        <img src="images/logo.png" alt="Logo Sekolah" class="logo" />
+        <nav>
+          <ul class="nav-links">
+            <li><a href="index.html">Beranda</a></li>
+            <li><a href="profil.html" class="active">Profil</a></li>
+            <li><a href="promosi.html">Promosi</a></li>
+            <li>
+              <a
+                href="https://smpwonosari.yayasankanisius.sch.id/ppdb"
+                target="_blank"
+                rel="noopener"
+                >PPDB</a
+              >
+            </li>
+            <li><a href="kontak.html">Kontak</a></li>
+          </ul>
+          <div class="hamburger" onclick="toggleMenu()">☰</div>
+        </nav>
+      </div>
+    </header>
+
+    <section class="hero-event">
+      <div class="line"></div>
+      <h2>Event dan Prestasi</h2>
+
+      <p>
+        Event dan prestasi di SMP Kanisius Wonosari merupakan wujud nyata
+        partisipasi aktif dan semangat berkompetisi siswa dalam berbagai
+        kegiatan. Melalui berbagai ajang seni, olahraga, dan lomba akademik,
+        siswa tidak hanya menyalurkan bakatnya, tetapi juga mengharumkan nama
+        sekolah dengan prestasi membanggakan.
+      </p>
+
+      <div class="line"></div>
+
+      <div class="event-image">
+        <img src="images/event_hero.jpg" alt="Gambar Lonjong" />
+      </div>
+    </section>
+
+    <!-- SECTION EVENT INTERAKTIF -->
+    <section class="event-section" id="peringatan-nasional" data-aos="fade-up">
+      <div class="event-container">
+        <h2 class="event-title">Peringatan Nasional & Kebudayaan</h2>
+        <p class="event-description">
+          SMP Kanisius Wonosari secara aktif menyelenggarakan berbagai kegiatan
+          dalam rangka memperingati hari-hari besar nasional dan momen
+          kebudayaan Indonesia. Peringatan ini menjadi momen edukatif sekaligus
+          reflektif bagi seluruh warga sekolah untuk memahami nilai-nilai
+          sejarah, budaya, dan jati diri bangsa.
+        </p>
+
+        <div class="event-gallery">
+          <div class="gallery-item" data-target="detail1">
+            <img src="images/event/upacara/head-upc.jpg" alt="upacara" />
+            <div class="overlay-text">Upacara 17 Agustus</div>
+          </div>
+          <div class="gallery-item" data-target="detail2">
+            <img src="images/event/lomba/head-lomb.jpg" alt="lomba" />
+            <div class="overlay-text">Lomba 17an</div>
+          </div>
+          <div class="gallery-item" data-target="detail3">
+            <img src="images/event/pramuka/head-pram.jpg" alt="hari pramuka" />
+            <div class="overlay-text">Hari Pramuka</div>
+          </div>
+          <div class="gallery-item" data-target="detail4">
+            <img src="images/event/anak/head-anak.jpg" alt="hari anak" />
+            <div class="overlay-text">Hari Anak Nasional</div>
+          </div>
+          <div class="gallery-item" data-target="detail5">
+            <img src="images/event/tumpeng/head-tump.jpg" alt="lomba tumpeng" />
+            <div class="overlay-text">Lomba Tumpeng</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- DETAIL SECTION -->
+    <section class="detail-section" id="detail1">
+      <div class="detail-container">
+        <button class="close-btn" onclick="closeDetail()">×</button>
+        <h3>Upacara 17 Agustus: Memperingati Hari Kemerdekaan Indonesia</h3>
+        <p>
+          Setiap tanggal 17 Agustus, SMP Kanisius Wonosari menggelar upacara
+          bendera dalam rangka memperingati Hari Kemerdekaan Republik Indonesia.
+          Kegiatan ini merupakan bentuk penghormatan kepada para pahlawan dan
+          wujud semangat nasionalisme siswa.
+        </p>
+        <div class="detail-gallery">
+          <img src="images/event/upacara/upc1.jpg" />
+          <img src="images/event/upacara/upc2.jpg" />
+          <img src="images/event/upacara/upc3.jpg" />
+          <img src="images/event/upacara/upc4.jpg" />
+          <img src="images/event/upacara/upc5.jpg" />
+          <img src="images/event/upacara/upc6.jpg" />
+        </div>
+      </div>
+    </section>
+
+    <section class="detail-section" id="detail2">
+      <div class="detail-container">
+        <button class="close-btn" onclick="closeDetail()">×</button>
+        <h3>Lomba 17-an: Meriahkan Semangat Kemerdekaan</h3>
+        <p>
+          Sebagai bagian dari peringatan Hari Kemerdekaan Republik Indonesia,
+          SMP Kanisius Wonosari rutin menggelar lomba 17-an yang diikuti dengan
+          antusias oleh seluruh siswa, guru, dan staf sekolah. Lomba ini tidak
+          hanya menjadi ajang hiburan, tetapi juga sarana mempererat kebersamaan
+          dan menumbuhkan semangat juang.
+        </p>
+        <div class="detail-gallery">
+          <img src="images/event/lomba/lomb1.jpg" />
+          <img src="images/event/lomba/lomb2.jpg" />
+          <img src="images/event/lomba/lomb3.jpg" />
+          <img src="images/event/lomba/lomb4.jpg" />
+          <img src="images/event/lomba/lomb5.jpg" />
+          <img src="images/event/lomba/lomb6.jpg" />
+        </div>
+      </div>
+    </section>
+
+    <section class="detail-section" id="detail3">
+      <div class="detail-container">
+        <button class="close-btn" onclick="closeDetail()">×</button>
+        <h3>
+          Peringatan Hari Pramuka: Membangun Karakter dan Jiwa Kepemimpinan
+        </h3>
+        <p>
+          Dalam rangka memperingati Hari Pramuka setiap 14 Agustus, SMP Kanisius
+          Wonosari menyelenggarakan kegiatan khusus yang melibatkan seluruh
+          anggota gerakan Pramuka sekolah. Kegiatan ini bertujuan menanamkan
+          nilai-nilai kepramukaan seperti disiplin, mandiri, gotong royong,
+          serta jiwa kepemimpinan.
+        </p>
+        <div class="detail-gallery">
+          <img src="images/event/pramuka/pram1.jpg" />
+          <img src="images/event/pramuka/pram2.jpg" />
+          <img src="images/event/pramuka/pram3.jpg" />
+          <img src="images/event/pramuka/pram4.jpg" />
+          <img src="images/event/pramuka/pram5.jpg" />
+          <img src="images/event/pramuka/pram6.jpg" />
+        </div>
+      </div>
+    </section>
+
+    <section class="detail-section" id="detail4">
+      <div class="detail-container">
+        <button class="close-btn" onclick="closeDetail()">×</button>
+        <h3>Hari Anak Nasional: Merayakan Potensi dan Keceriaan Anak</h3>
+        <p>
+          Setiap tanggal 23 Juli, SMP Kanisius Wonosari turut memperingati Hari
+          Anak Nasional sebagai bentuk penghargaan terhadap hak, suara, dan
+          potensi setiap anak. Kegiatan ini menjadi momen penting untuk
+          menumbuhkan rasa percaya diri, kebahagiaan, dan semangat berkarya di
+          kalangan siswa.
+        </p>
+        <div class="detail-gallery">
+          <img src="images/event/anak/anak1.jpg" />
+          <img src="images/event/anak/anak2.jpg" />
+          <img src="images/event/anak/anak3.jpg" />
+        </div>
+      </div>
+    </section>
+
+    <section class="detail-section" id="detail5">
+      <div class="detail-container">
+        <button class="close-btn" onclick="closeDetail()">×</button>
+        <h3>Lomba Tumpeng: Merayakan Kebersamaan Lewat Tradisi Nusantara</h3>
+        <p>
+          Dalam rangka memperingati momen-momen nasional dan kebudayaan, SMP
+          Kanisius Wonosari mengadakan Lomba Tumpeng yang melibatkan kreativitas
+          dan kekompakan antarkelompok siswa. Tumpeng, sebagai simbol rasa
+          syukur dan kearifan lokal, menjadi sarana belajar tentang nilai budaya
+          sekaligus mempererat kebersamaan di lingkungan sekolah.
+        </p>
+        <div class="detail-gallery">
+          <img src="images/event/tumpeng/tump1.jpg" />
+          <img src="images/event/tumpeng/tump2.jpg" />
+          <img src="images/event/tumpeng/tump3.jpg" />
+          <img src="images/event/tumpeng/tump4.jpg" />
+          <img src="images/event/tumpeng/tump5.jpg" />
+          <img src="images/event/tumpeng/tump6.jpg" />
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION EVENT INTERAKTIF -->
+    <section class="event-section" id="event-olahraga" data-aos="fade-up">
+      <div class="event-container">
+        <h2 class="event-title">Event Olahraga</h2>
+        <p class="event-description">
+          SMP Kanisius Wonosari rutin menyelenggarakan event olahraga antar
+          kelas maupun dalam rangka peringatan hari besar tertentu. Kegiatan ini
+          menjadi ajang penting untuk menumbuhkan semangat sportivitas, daya
+          juang, dan kekompakan tim dalam diri setiap siswa.
+        </p>
+
+        <div class="event-gallery">
+          <div class="gallery-item" data-target="detail6">
+            <img
+              src="images/event/sosialisasi/head-sos.jpg"
+              alt="senam sosialisasi"
+            />
+            <div class="overlay-text">Senam & sosialisasi</div>
+          </div>
+          <div class="gallery-item" data-target="detail7">
+            <img src="images/event/bersih/head-ber.jpg" alt="bersih" />
+            <div class="overlay-text">Senam & Jumat Bersih</div>
+          </div>
+          <div class="gallery-item" data-target="detail8">
+            <img src="images/event/sehat/head-seh.jpg" alt="senam" />
+            <div class="overlay-text">Senam Indonesia Hebat</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- DETAIL SECTION -->
+    <section class="detail-section" id="detail6">
+      <div class="detail-container">
+        <button class="close-btn" onclick="closeDetail()">×</button>
+        <h3>Senam & Sosialisasi: Sehat Fisik, Kuat Pengetahuan</h3>
+        <p>
+          Sebagai upaya menjaga kebugaran dan meningkatkan kesadaran kesehatan
+          siswa, SMP Kanisius Wonosari menyelenggarakan kegiatan Senam dan
+          Sosialisasi Kesehatan. Kegiatan ini tidak hanya melibatkan aktivitas
+          fisik, tetapi juga edukasi seputar gaya hidup sehat dan pentingnya
+          nutrisi bagi pertumbuhan remaja.
+        </p>
+        <div class="detail-gallery">
+          <img src="images/event/sosialisasi/sos1.jpg" />
+          <img src="images/event/sosialisasi/sos2.jpg" />
+          <img src="images/event/sosialisasi/sos3.jpg" />
+          <img src="images/event/sosialisasi/sos4.jpg" />
+          <img src="images/event/sosialisasi/sos5.jpg" />
+          <img src="images/event/sosialisasi/sos6.jpg" />
+        </div>
+      </div>
+    </section>
+    <section class="detail-section" id="detail7">
+      <div class="detail-container">
+        <button class="close-btn" onclick="closeDetail()">×</button>
+        <h3>
+          Senam & Jumat Bersih: Melatih Kepedulian dan Tanggung Jawab Lingkungan
+        </h3>
+        <p>
+          Setiap hari Jumat, SMP Kanisius Wonosari rutin melaksanakan kegiatan
+          Jumat Bersih, sebuah program sederhana namun bermakna dalam membentuk
+          karakter peduli lingkungan sejak dini. Kegiatan ini menjadi wadah bagi
+          siswa untuk belajar mencintai kebersihan, merawat fasilitas sekolah,
+          serta menghargai lingkungan sebagai bagian dari kehidupan bersama.
+        </p>
+        <div class="detail-gallery">
+          <img src="images/event/bersih/ber1.jpg" />
+          <img src="images/event/bersih/ber2.jpg" />
+          <img src="images/event/bersih/ber3.jpg" />
+          <img src="images/event/bersih/ber4.jpg" />
+          <img src="images/event/bersih/ber5.jpg" />
+          <img src="images/event/bersih/ber6.jpg" />
+        </div>
+      </div>
+    </section>
+    <section class="detail-section" id="detail8">
+      <div class="detail-container">
+        <button class="close-btn" onclick="closeDetail()">×</button>
+        <h3>Senam Anak Indonesia Hebat: Bergerak Gembira, Tumbuh Luar Biasa</h3>
+        <p>
+          Dalam rangka mendukung program kesehatan dan kebugaran nasional, SMP
+          Kanisius Wonosari turut melaksanakan Senam Anak Indonesia Hebat,
+          sebuah gerakan senam massal yang dirancang khusus untuk anak dan
+          remaja Indonesia.
+        </p>
+        <div class="detail-gallery">
+          <img src="images/event/sehat/seh1.jpg" />
+          <img src="images/event/sehat/seh2.jpg" />
+          <img src="images/event/sehat/seh3.jpg" />
+          <img src="images/event/sehat/seh4.jpg" />
+          <img src="images/event/sehat/seh5.jpg" />
+          <img src="images/event/sehat/seh6.jpg" />
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION EVENT INTERAKTIF -->
+    <section class="event-section" id="kegiatan-rohani" data-aos="fade-up">
+      <div class="event-container">
+        <h2 class="event-title">Kegiatan Kerohanian</h2>
+        <p class="event-description">
+          SMP Kanisius Wonosari menempatkan pembinaan rohani sebagai pilar
+          penting dalam pembentukan karakter siswa. Melalui berbagai kegiatan
+          kerohanian, siswa dibimbing untuk mengembangkan iman, membangun
+          hubungan personal dengan Tuhan, dan mewujudkan nilai-nilai kasih dalam
+          kehidupan sehari-hari.
+        </p>
+
+        <div class="event-gallery">
+          <div class="gallery-item" data-target="detail9">
+            <img src="images/event/reko7/head-rek7.jpg" alt="rekoleksi7" />
+            <div class="overlay-text">Rekoleksi kelas 7</div>
+          </div>
+          <div class="gallery-item" data-target="detail10">
+            <img src="images/event/reko8/head-reko8.jpg" alt="rekoleksi8" />
+            <div class="overlay-text">Rekoleksi kelas 8</div>
+          </div>
+          <div class="gallery-item" data-target="detail11">
+            <img src="images/event/ret9/head-ret9.jpg" alt="retret9" />
+            <div class="overlay-text">Retret Kelas 9</div>
+          </div>
+          <div class="gallery-item" data-target="detail12">
+            <img src="images/event/misa/head-misa.jpg" alt="misa" />
+            <div class="overlay-text">Misa Tahun Ajaran Baru</div>
+          </div>
+          <div class="gallery-item" data-target="detail13">
+            <img src="images/event/koor/head-koor.jpg" alt="koor misa" />
+            <div class="overlay-text">Koor Misa</div>
+          </div>
+          <div class="gallery-item" data-target="detail14">
+            <img src="images/event/natal/head-nat.jpg" alt="gebyar natal" />
+            <div class="overlay-text">Gebyar Natal</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- DETAIL SECTION -->
+    <section class="detail-section" id="detail9">
+      <div class="detail-container">
+        <button class="close-btn" onclick="closeDetail()">×</button>
+        <h3>
+          Rekoleksi Kelas 7: Menjadi Pribadi yang Bertumbuh dalam Iman dan Kasih
+        </h3>
+        <p>
+          Rekoleksi menjadi salah satu momen penting dalam perjalanan spiritual
+          siswa SMP Kanisius Wonosari. Khusus bagi siswa kelas 7, kegiatan ini
+          menjadi ajang perkenalan yang lebih dalam dengan nilai-nilai hidup,
+          relasi dengan sesama, dan makna kehadiran Tuhan dalam kehidupan
+          sehari-hari.
+        </p>
+        <div class="detail-gallery">
+          <img src="images/event/reko7/rek1.jpg" />
+          <img src="images/event/reko7/rek2.jpg" />
+          <img src="images/event/reko7/rek3.jpg" />
+          <img src="images/event/reko7/rek4.jpg" />
+          <img src="images/event/reko7/rek5.jpg" />
+          <img src="images/event/reko7/rek6.jpg" />
+        </div>
+      </div>
+    </section>
+    <section class="detail-section" id="detail10">
+      <div class="detail-container">
+        <button class="close-btn" onclick="closeDetail()">×</button>
+        <h3>Rekoleksi Kelas 8: Memperdalam Diri, Menguatkan Hati</h3>
+        <p>
+          Di tahun kedua masa SMP, siswa kelas 8 SMP Kanisius Wonosari diajak
+          untuk mengikuti rekoleksi sebagai ruang khusus untuk merenung, menata
+          diri, dan memperkuat nilai-nilai kehidupan. Kegiatan ini menjadi
+          lanjutan dari rekoleksi kelas 7, namun dengan pendekatan yang lebih
+          mendalam dan personal.
+        </p>
+        <div class="detail-gallery">
+          <img src="images/event/reko8/reko1.jpg" />
+          <img src="images/event/reko8/reko2.jpg" />
+          <img src="images/event/reko8/reko3.jpg" />
+          <img src="images/event/reko8/reko4.jpg" />
+          <img src="images/event/reko8/reko5.jpg" />
+          <img src="images/event/reko8/reko6.jpg" />
+        </div>
+      </div>
+    </section>
+    <section class="detail-section" id="detail11">
+      <div class="detail-container">
+        <button class="close-btn" onclick="closeDetail()">×</button>
+        <h3>
+          Retret Kelas 9: Mengakhiri dengan Syukur, Melangkah dengan Harapan
+        </h3>
+        <p>
+          Retret bagi siswa kelas 9 SMP Kanisius Wonosari merupakan puncak dari
+          seluruh rangkaian kegiatan rohani selama masa SMP. Di penghujung
+          perjalanan mereka di jenjang ini, siswa diajak untuk menepi sejenak
+          dari kesibukan akademik, merenungkan perjalanan hidup, dan
+          mempersiapkan diri menghadapi masa depan dengan hati yang lebih teguh.
+        </p>
+        <div class="detail-gallery">
+          <img src="images/event/ret9/ret1.jpg" />
+          <img src="images/event/ret9/ret2.jpg" />
+          <img src="images/event/ret9/ret3.jpg" />
+          <img src="images/event/ret9/ret4.jpg" />
+          <img src="images/event/ret9/ret5.jpg" />
+          <img src="images/event/ret9/ret6.jpg" />
+        </div>
+      </div>
+    </section>
+    <section class="detail-section" id="detail12">
+      <div class="detail-container">
+        <button class="close-btn" onclick="closeDetail()">×</button>
+        <h3>
+          Misa Awal Tahun Ajaran: Mengawali dengan Doa, Melangkah dalam Berkat
+        </h3>
+        <p>
+          Sebagai sekolah yang berlandaskan nilai-nilai iman Katolik, SMP
+          Kanisius Wonosari selalu mengawali tahun ajaran baru dengan Perayaan
+          Ekaristi atau Misa Syukur. Kegiatan ini menjadi momen sakral yang
+          mengajak seluruh warga sekolah untuk menyerahkan perjalanan pendidikan
+          selama satu tahun ke dalam penyertaan Tuhan.
+        </p>
+        <div class="detail-gallery">
+          <img src="images/event/misa/misa1.jpg" />
+          <img src="images/event/misa/misa2.jpg" />
+          <img src="images/event/misa/misa3.jpg" />
+        </div>
+      </div>
+    </section>
+    <section class="detail-section" id="detail13">
+      <div class="detail-container">
+        <button class="close-btn" onclick="closeDetail()">×</button>
+        <h3>Koor Misa: Melayani dengan Suara, Mendoakan dengan Nada</h3>
+        <p>
+          Di balik setiap misa di SMP Kanisius Wonosari, terdapat kelompok koor
+          siswa yang setia melayani dengan penuh sukacita. Bukan sekadar
+          bernyanyi, mereka menghadirkan suasana ibadat yang lebih hidup,
+          menyentuh hati, dan membawa seluruh jemaat lebih dekat dengan Tuhan.
+        </p>
+        <div class="detail-gallery">
+          <img src="images/event/misa/misa1.jpg" />
+          <img src="images/event/misa/misa2.jpg" />
+          <img src="images/event/misa/misa3.jpg" />
+        </div>
+      </div>
+    </section>
+    <section class="detail-section" id="detail14">
+      <div class="detail-container">
+        <button class="close-btn" onclick="closeDetail()">×</button>
+        <h3>Gebyar Natal: Sukacita yang Menguatkan, Damai yang Mengalir</h3>
+        <p>
+          Gebyar Natal di SMP Kanisius Wonosari bukan sekadar perayaan tahunan,
+          melainkan sebuah momen kebersamaan dan refleksi iman yang menggugah
+          hati. Dalam suasana penuh sukacita, seluruh warga sekolah ambil bagian
+          dalam perayaan kelahiran Yesus Kristus dengan berbagai bentuk kegiatan
+          seni dan liturgi.
+        </p>
+        <div class="detail-gallery">
+          <img src="images/event/natal/nat1.jpg" />
+          <img src="images/event/natal/nat2.jpg" />
+          <img src="images/event/natal/nat3.jpg" />
+          <img src="images/event/natal/nat4.jpg" />
+          <img src="images/event/natal/nat5.jpg" />
+          <img src="images/event/natal/nat6.jpg" />
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION EVENT INTERAKTIF -->
+    <section class="event-section" id="outing-class" data-aos="fade-up">
+      <div class="event-container">
+        <h2 class="event-title">Outing Class</h2>
+        <p class="event-description">
+          Outing Class merupakan salah satu kegiatan unggulan di SMP Kanisius
+          Wonosari yang memberikan pengalaman belajar di luar ruang kelas.
+        </p>
+
+        <div class="event-gallery">
+          <div class="gallery-item" data-target="detail15">
+            <img src="images/event/out7/head-out7.jpg" alt="outing7" />
+            <div class="overlay-text">Outing Clas 7</div>
+          </div>
+          <div class="gallery-item" data-target="detail16">
+            <img src="images/event/out8/head-out8.jpg" alt="outing8" />
+            <div class="overlay-text">Outing Clas 8</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- DETAIL SECTION -->
+    <section class="detail-section" id="detail15">
+      <div class="detail-container">
+        <button class="close-btn" onclick="closeDetail()">×</button>
+        <h3>Outing Class Kelas 7: Napak Tilas ke Monumen Sejarah</h3>
+        <p>
+          Sebagai bagian dari pembelajaran kontekstual, siswa kelas 7 SMP
+          Kanisius Wonosari mengikuti kegiatan Outing Class ke monumen sejarah
+          yang menjadi saksi perjalanan bangsa. Tujuan dari kegiatan ini adalah
+          agar siswa belajar langsung dari jejak sejarah, memahami nilai-nilai
+          perjuangan, dan menumbuhkan rasa cinta tanah air.
+        </p>
+        <div class="detail-gallery">
+          <img src="images/event/out7/out71.jpg" />
+          <img src="images/event/out7/out72.jpg" />
+          <img src="images/event/out7/out73.jpg" />
+        </div>
+      </div>
+    </section>
+    <section class="detail-section" id="detail16">
+      <div class="detail-container">
+        <button class="close-btn" onclick="closeDetail()">×</button>
+        <h3>
+          Outing Class Kelas 8: Belajar, Bertualang, dan Menjelajah Makna di
+          Luar Kota
+        </h3>
+        <p>
+          Outing Class kelas 8 menjadi salah satu kegiatan yang paling
+          dinantikan oleh siswa SMP Kanisius Wonosari. Dengan destinasi ke luar
+          kota, kegiatan ini dirancang untuk menggabungkan nilai edukasi,
+          eksplorasi, dan rekreasi, menjadikan pengalaman belajar yang tidak
+          terlupakan.
+        </p>
+        <div class="detail-gallery">
+          <img src="images/event/out8/out81.jpg" />
+          <img src="images/event/out8/out82.jpg" />
+          <img src="images/event/out8/out83.jpg" />
+          <img src="images/event/out8/out84.jpg" />
+          <img src="images/event/out8/out85.jpg" />
+          <img src="images/event/out8/out86.jpg" />
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p>&copy; 2025 SMP Kanisius Wonosari. All rights reserved.</p>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script>
+      function toggleMenu() {
+        const navLinks = document.querySelector(".nav-links");
+        navLinks.classList.toggle("active");
+      }
+    </script>
+    <script>
+      // Buka detail saat gambar diklik
+      document.querySelectorAll(".gallery-item").forEach((item) => {
+        item.addEventListener("click", () => {
+          const targetId = item.getAttribute("data-target");
+
+          // Sembunyikan semua detail section
+          document.querySelectorAll(".detail-section").forEach((section) => {
+            section.classList.remove("active");
+          });
+
+          // Tampilkan hanya yang sesuai
+          const targetSection = document.getElementById(targetId);
+          if (targetSection) {
+            targetSection.classList.add("active");
+
+            // Tunggu sejenak sampai section muncul (jika butuh)
+            setTimeout(() => {
+              const sectionTop =
+                targetSection.getBoundingClientRect().top + window.pageYOffset;
+              const scrollPosition =
+                sectionTop -
+                window.innerHeight / 2 +
+                targetSection.offsetHeight / 2;
+
+              window.scrollTo({
+                top: scrollPosition,
+                behavior: "smooth",
+              });
+            }, 100); // 100ms cukup untuk menunggu animasi class .active jika ada
+          }
+        });
+      });
+
+      // Tutup detail section
+      function closeDetail() {
+        document.querySelectorAll(".detail-section").forEach((section) => {
+          section.classList.remove("active");
+        });
+
+        // Scroll balik ke galeri utama
+        const gallery = document.querySelector(".event-gallery");
+        if (gallery) {
+          gallery.scrollIntoView({ behavior: "smooth" });
+        }
+      }
+    </script>
+  </body>
+</html>
