@@ -51,11 +51,11 @@
 }
 
 .pramuka-left {
-  background-image: linear-gradient(rgba(65, 33, 10, 0.5), rgba(36, 23, 14, 0.5)), url('../images/foto-pramuka.jpg');
+  background-image: linear-gradient(rgba(65, 33, 10, 0.5), rgba(36, 23, 14, 0.5)), url('../images/foto-pramuka.webp');
 }
 
 .basket-right {
-background-image: linear-gradient(rgba(65, 33, 10, 0.5), rgba(36, 23, 14, 0.5)), url('../images/foto-basket.jpeg');
+background-image: linear-gradient(rgba(65, 33, 10, 0.5), rgba(36, 23, 14, 0.5)), url('../images/foto-basket.webp');
 }
 .pramuka-left h2,
 .basket-right h2 {

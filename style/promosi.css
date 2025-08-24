@@ -1,7 +1,7 @@
 /* ----------RPOMOSI_PAGE---------- */
 /* Hero section */
 .promosi-hero {
-  background-image: url('images/hero-promosi.png'); 
+  background-image: url('images/hero-promosi.webp'); 
   background-size: cover;
   background-position: center;
   height: 40vh;        
@@ -134,7 +134,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background-image: url('../images/samar.jpg'); 
+  background-image: url('../images/samar.webp'); 
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -185,7 +185,7 @@
     flex: none;
     width: 100%;
     padding: 40px 20px;
-    background-image: url('../images/samar.jpg');
+    background-image: url('../images/samar.webp');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
