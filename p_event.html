@@ -541,7 +541,9 @@
 
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
-      AOS.init();
+      AOS.init({
+        once: true,
+      });
     </script>
     <script>
       function toggleMenu() {
@@ -595,6 +597,15 @@
           gallery.scrollIntoView({ behavior: "smooth" });
         }
       }
+    </script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        document.querySelectorAll("img").forEach((img) => {
+          if (!img.hasAttribute("loading")) {
+            img.setAttribute("loading", "lazy");
+          }
+        });
+      });
     </script>
   </body>
 </html>
